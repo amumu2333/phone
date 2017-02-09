@@ -14,7 +14,6 @@ $(window).ready(function () {
     left0 = parseInt(this.style.left);
     console.log(top0,left0);
   });//dragend
-  console.log(window);
 
 
 
