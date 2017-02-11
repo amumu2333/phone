@@ -1,0 +1,36 @@
+body,p,
+h1,h2,h3,h4,h5,h6,
+ol,dl,dd,
+form,input,
+ul,li 
+{
+   margin:1;
+   padding:0;
+   list-style:none;
+   font-weight:normal;
+}
+img {border:none;}
+a {text-decoration: none;}
+
+
+ul.control {
+    display: flex;
+    justify-content: space-between;
+    background: #0067FF;
+    line-height: 1.5;
+    color: #fff;
+    li {
+        text-align: center;
+        flex-grow: 1;
+        font-weight: bolder;
+        &.now {
+            background: #FF6700;
+        }
+    }
+}
+
+canvas#draw {
+    box-sizing: border-box;
+    border: 2px dashed #000000;
+    margin: 0 auto;
+}
